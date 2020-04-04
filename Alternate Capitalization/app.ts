@@ -1,10 +1,8 @@
 export function capitalize(s: string) {
-    let list: string[] = ['',''];
-    let counter: number = 0;
-    s.split("").forEach(c => {
-        list[counter%2] += c.toUpperCase();
-        list[(counter+1)%2] += c.toLowerCase();
-        counter++;
+    let list: string[] = ['', ''];
+    s.split("").forEach((c, index) => {
+        list[index % 2] += c.toUpperCase();
+        list[(index + 1) % 2] += c.toLowerCase();
     });
     return list;
 }
