@@ -1,5 +1,5 @@
 # Codewars
-My [Codewars](https://www.codewars.com/users/Fredi100) repository with all katas I have currently solved.
+[![Codewars badge](https://www.codewars.com/users/Fredi100/badges/large)](https://www.codewars.com/users/Fredi100)
 
 ### 6 Kyū
 
